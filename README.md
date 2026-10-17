@@ -48,7 +48,7 @@ I enjoy exploring ambitious ideas, architecting scalable backend systems, and tu
 | :--- | :--- | :--- |
 | **[Enterprise DLP & AI Security Suite](https://github.com/zayanshahid)** | Multi-tiered Data Loss Prevention scanner integrating regex, Shannon entropy, context scoring, and Microsoft Presidio. | `Python` `MS Presidio` `Regex` `Promptfoo` |
 | **[M365 Copilot Governance Suite](https://github.com/zayanshahid)** | 7-pillar security & compliance assessment suite with automated Graph API auditing and dynamic DOCX reporting. | `Python` `Graph API` `Automation` |
-| **[AI Content & Webhook Orchestrator](https://cyberverse.space)** | Self-hosted multi-node automation workflows connecting LLMs, webhooks, and custom domain routing. | `n8n` `LangChain` `Gemini API` `Docker` |
+| **[AI Content & Webhook Orchestrator](https://getsol.tech)** | Self-hosted multi-node automation workflows connecting LLMs, webhooks, and custom domain routing. | `n8n` `LangChain` `Gemini API` `Docker` |
 | **[Personal Portfolio](https://shahidse.vercel.app)** | My personal portfolio showcasing backend engineering projects, skills, and architecture. | `Vercel` `Python` `REST APIs` |
 
 ---
