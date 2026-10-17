@@ -2,13 +2,17 @@ name: Generate Dynamic Profile SVGs & 3D City
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
   push:
     branches: [ main, master ]
 
 permissions:
   contents: write
+
+concurrency:
+  group: profile-build
+  cancel-in-progress: false
 
 jobs:
   build-profile:
@@ -24,16 +28,15 @@ jobs:
           USERNAME: zayanshahid
 
       - name: Generate Neofetch ID Badges & Live Desk SVGs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install Pillow
           python3 generate_profile_svgs.py
 
       - name: Commit & Push Generated SVGs
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add id_badge_dark.svg id_badge_light.svg live_desk.svg profile-3d-contrib/
           git diff --staged --quiet || git commit -m "chore: update dynamic profile SVGs"
+          git pull --rebase origin ${{ github.ref_name }}
           git push
