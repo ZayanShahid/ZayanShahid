@@ -8,7 +8,7 @@ from xml.sax.saxutils import escape
 
 USERNAME = "zayanshahid"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
-
+PKT = timezone(timedelta(hours=5))
 
 def get_user_ascii_lines(image_source=f"https://github.com/{USERNAME}.png", width=34, height=25):
     chars = " .:-=+*#%@"
@@ -182,10 +182,12 @@ def build_id_badge(stats, theme="dark"):
   </g>
 </svg>'''
 
+
+
 def build_live_desk():
-    pkt_hour = (datetime.now(timezone.utc).hour + 5) % 24
-    time_str = f"{pkt_hour:02d}:{datetime.now(timezone.utc).minute:02d} PKT"
-    status = escape("Coding & Building APIs") if 9 <= pkt_hour <= 23 else escape("Away / Server Running")
+    now = datetime.now(PKT)
+    time_str = now.strftime("%H:%M PKT")
+    status = escape("Coding & Building APIs" if 9 <= now.hour <= 23 else "Away / Server Running")
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
   <style>
     .bg {{ fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 2px; }}
