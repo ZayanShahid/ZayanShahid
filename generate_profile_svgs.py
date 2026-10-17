@@ -152,7 +152,7 @@ def build_id_badge(stats, theme="dark"):
         (336, f'<tspan class="dots">-</tspan> <tspan class="title">Contact</tspan> <tspan class="dots">{"-"*49}</tspan>'),
         (356, fmt_line("Email", "shaam.laghari@gmail.com")),
         (376, fmt_line("LinkedIn", "muhammad-shahid-979961130")),
-        (396, fmt_line("Domain", "cyberverse.space")),
+        (396, fmt_line("Domain", "getsol.tech")),
         (416, fmt_line("Website", "shahidse.vercel.app")),
         (436, '<tspan class="dots">.</tspan>'),
         (456, f'<tspan class="dots">-</tspan> <tspan class="title">GitHub Stats</tspan> <tspan class="dots">{"-"*44}</tspan>'),
