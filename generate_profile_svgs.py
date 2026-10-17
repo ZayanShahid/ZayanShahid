@@ -185,11 +185,8 @@ def build_id_badge(stats, theme="dark"):
 def build_live_desk():
     pkt_hour = (datetime.now(timezone.utc).hour + 5) % 24
     time_str = f"{pkt_hour:02d}:{datetime.now(timezone.utc).minute:02d} PKT"
-    #status = "Coding & Building APIs" if 9 <= pkt_hour <= 23 else "Away / Server Running"
-    #return f'''<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
-    status = "Coding & Building APIs"
-    svg = f'<text x="225" y="88" class="txt" fill="#a371f7">status: "{escape(status)}"</text>'
-    return svg
+    status = escape("Coding & Building APIs") if 9 <= pkt_hour <= 23 else escape("Away / Server Running")
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
   <style>
     .bg {{ fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 2px; }}
     .txt {{ font-family: 'JetBrains Mono', monospace; fill: #c9d1d9; font-size: 13px; }}
