@@ -1,20 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
-  <style>
-    .bg { fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 2px; }
-    .txt { font-family: 'JetBrains Mono', monospace; fill: #c9d1d9; font-size: 13px; }
-    .steam { stroke: #8b949e; stroke-width: 2; fill: none; stroke-linecap: round; opacity: 0.7; }
-  </style>
-  <rect width="596" height="216" x="2" y="2" class="bg"/>
-  <rect x="210" y="35" width="180" height="105" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
-  <text x="225" y="65" class="txt" fill="#79c0ff">&gt;_ zayanshahid.py</text>
-  <text x="225" y="88" class="txt" fill="#a371f7">status: "Coding & Building APIs"</text>
-  <text x="225" y="111" class="txt" fill="#3fb950">time:   "19:07 PKT"</text>
-  <rect x="285" y="140" width="30" height="25" fill="#30363d"/>
-  <rect x="250" y="165" width="100" height="6" rx="3" fill="#484f58"/>
-  <rect x="440" y="130" width="28" height="35" rx="4" fill="#f0883e"/>
-  <path d="M468 138 h8 a6 6 0 0 1 6 6 v8 a6 6 0 0 1 -6 6 h-8" fill="none" stroke="#f0883e" stroke-width="4"/>
-  <path class="steam" d="M448 122 Q444 112 450 102"><animate attributeName="d" values="M448 122 Q444 112 450 102;M448 122 Q452 112 446 102;M448 122 Q444 112 450 102" dur="2.5s" repeatCount="indefinite"/></path>
-  <path class="steam" d="M458 122 Q462 112 456 102"><animate attributeName="d" values="M458 122 Q462 112 456 102;M458 122 Q454 112 460 102;M458 122 Q462 112 456 102" dur="2.5s" repeatCount="indefinite"/></path>
-  <line x1="40" y1="171" x2="560" y2="171" stroke="#30363d" stroke-width="4"/>
-  <text x="300" y="200" text-anchor="middle" class="txt">⚡ Live Status Desk • Auto-Updated via GitHub Actions</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230">
+  <!-- Background Card -->
+  <rect width="596" height="226" x="2" y="2" rx="12" ry="12" fill="#0d1117" stroke="#30363d" stroke-width="2" />
+
+  <!-- Ambient Desk Lamp Glow (Left) -->
+  <polygon points="95,55 40,175 160,175" fill="#00F59B" opacity="0.06" />
+  <line x1="75" y1="175" x2="75" y2="65" stroke="#484f58" stroke-width="4" />
+  <line x1="75" y1="65" x2="100" y2="55" stroke="#484f58" stroke-width="4" />
+  <path d="M90 50 L110 60 L102 68 L84 58 Z" fill="#58a6ff" />
+  <rect x="55" y="171" width="40" height="5" rx="2" fill="#484f58" />
+
+  <!-- Monitor Stand & Base -->
+  <rect x="282" y="142" width="36" height="26" fill="#21262d" />
+  <rect x="245" y="168" width="110" height="7" rx="3" fill="#30363d" />
+
+  <!-- Monitor Frame -->
+  <rect x="185" y="28" width="230" height="116" rx="8" ry="8" fill="#161b22" stroke="#30363d" stroke-width="3" />
+  <!-- Top Window Bar -->
+  <rect x="188" y="31" width="224" height="18" rx="5" fill="#21262d" />
+  <circle cx="200" cy="40" r="4" fill="#ff5f56" />
+  <circle cx="212" cy="40" r="4" fill="#ffbd2e" />
+  <circle cx="224" cy="40" r="4" fill="#27c93f" />
+  <text x="300" y="43" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e">zayanshahid@homelab:~</text>
+
+  <!-- Terminal Screen Text -->
+  <text x="200" y="68" font-family="monospace" font-size="12" fill="#79c0ff">>_ python3 main.py</text>
+  <text x="200" y="90" font-family="monospace" font-size="12" fill="#a371f7">status: <tspan id="desk-status" fill="#00F59B">"Coding & Building"</tspan></text>
+  <text x="200" y="112" font-family="monospace" font-size="12" fill="#f0883e">local:  <tspan id="desk-time" fill="#c9d1d9">"Active (PKT)"</tspan></text>
+  <text x="200" y="132" font-family="monospace" font-size="11" fill="#3fb950">● Docker & APIs Online</text>
+
+  <!-- Coffee Mug (Right) -->
+  <rect x="455" y="135" width="30" height="36" rx="4" fill="#f0883e" />
+  <path d="M485 143 h7 a6 6 0 0 1 6 6 v8 a6 6 0 0 1 -6 6 h-7" fill="none" stroke="#f0883e" stroke-width="4" />
+  
+  <!-- Animated Coffee Steam -->
+  <path d="M463 127 Q459 115 465 103" stroke="#8b949e" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.75">
+    <animate attributeName="d" values="M463 127 Q459 115 465 103;M463 127 Q467 115 461 103;M463 127 Q459 115 465 103" dur="2.4s" repeatCount="indefinite" />
+  </path>
+  <path d="M475 127 Q479 115 473 103" stroke="#8b949e" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.75">
+    <animate attributeName="d" values="M475 127 Q479 115 473 103;M475 127 Q471 115 477 103;M475 127 Q479 115 473 103" dur="2.4s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Desk Surface Line -->
+  <line x1="30" y1="175" x2="570" y2="175" stroke="#30363d" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Footer Caption -->
+  <text x="300" y="205" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e">⚡ Live Developer Desk • Auto-Updated via GitHub Actions</text>
 </svg>
