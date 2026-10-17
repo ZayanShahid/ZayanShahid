@@ -1,9 +1,9 @@
 <div align="center">
 <!-- BADGE:START -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=b8394666">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_light.svg?v=5a151ae9">
-    <img src="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=b8394666" width="100%" alt="Developer Profile Neofetch Terminal" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=15432755">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_light.svg?v=78e7e63e">
+    <img src="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=15432755" width="100%" alt="Developer Profile Neofetch Terminal" />
   </picture>
 <!-- BADGE:END -->
   <br/><br/>
@@ -67,7 +67,7 @@ I enjoy exploring ambitious ideas, architecting scalable backend systems, and tu
   <p><i>A dynamic, auto-updating SVG showing my current local time (PKT) and coding status.</i></p>
 
 <!-- DESK:START -->
-[![Live Developer Desk](https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/live_desk.svg?v=33900fc9)](https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/live_desk.svg)
+[![Live Developer Desk](https://live-desk-nine.vercel.app/)](https://live-desk-nine.vercel.app/)
 <!-- DESK:END -->
 </div>
 
