@@ -1,5 +1,5 @@
 <div align="center">
-  <!-- Dynamic Header Banner (Replaces local id_badge.svg so it works out of the box) -->
+  <!-- Dynamic Header Banner -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:00F59B&height=180&section=header&text=Muhammad%20Shahid&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Python%20Backend%20Engineer%20%E2%80%A2%20AI%20Orchestration%20%E2%80%A2%20Security%20%26%20DLP&descAlignY=65&descSize=16">
     <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:6e40c9,100:00F59B&height=180&section=header&text=Muhammad%20Shahid&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Python%20Backend%20Engineer%20%E2%80%A2%20AI%20Orchestration%20%E2%80%A2%20Security%20%26%20DLP&descAlignY=65&descSize=16">
@@ -8,16 +8,16 @@
   <br/>
 
   <!-- Social & Contact Badges + Live Auto-Updating Counters -->
-  <a href="https://cyberverse.space" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-20232A?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Portfolio" />
+  <a href="https://shahidse.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-20232A?style=for-the-badge&logo=vercel&logoColor=00F59B" alt="Portfolio" />
   </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">
+  <a href="https://www.linkedin.com/in/muhammad-shahid-979961130/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:YOUR_EMAIL@gmail.com">
+  <a href="mailto:shaam.laghari@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://github.com/zayanshahid?tab=repositories">
+  <a href="https://github.com/zayanshahid?tab=repositories" target="_blank">
     <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fzayanshahid&query=%24.public_repos&style=for-the-badge&logo=github&logoColor=00F59B&label=Repos&labelColor=20232A&color=6e40c9" alt="Live Repos" />
   </a>
 </div>
@@ -32,6 +32,7 @@ I enjoy architecting scalable backend systems, automating complex AI workflows, 
 - 🔭 I’m currently working on **Multi-tiered Data Loss Prevention (DLP) systems, LLM agent orchestration, and automated n8n pipelines.**
 - 🌱 I’m constantly exploring **Advanced Backend Architecture, AI Security & Red Teaming, and Self-Hosted Cloud Infrastructure.**
 - 💼 Open for **Software Engineering, Python Backend & AI Engineering roles and collaborations.**
+- 📫 Reach me directly at **[shaam.laghari@gmail.com](mailto:shaam.laghari@gmail.com)** or explore my work at **[shahidse.vercel.app](https://shahidse.vercel.app)**.
 
 ---
 
@@ -54,7 +55,7 @@ I enjoy architecting scalable backend systems, automating complex AI workflows, 
 | **[Enterprise DLP & AI Security Suite](https://github.com/zayanshahid)** | Multi-tiered Data Loss Prevention scanner integrating custom regex, Shannon entropy, context scoring, and Microsoft Presidio. | `Python` `MS Presidio` `Regex` `Promptfoo` |
 | **[M365 Copilot Governance Suite](https://github.com/zayanshahid)** | 7-pillar security & compliance assessment engine with automated Graph API auditing and dynamic report generation. | `Python` `Microsoft Graph API` `python-docx` |
 | **[AI Content & Webhook Orchestrator](https://cyberverse.space)** | Self-hosted multi-node automation pipelines integrating LLMs, webhooks, and custom domain routing for media generation. | `n8n` `LangChain` `Gemini API` `Docker` `Cloudflare` |
-| **[Computer Vision Drowsiness Detection](https://github.com/zayanshahid)** | Real-time facial landmark and eye-aspect-ratio monitoring system for driver safety alerts. | `Python` `OpenCV` `Data Science` |
+| **[Personal Developer Portfolio](https://shahidse.vercel.app)** | My digital showcase highlighting backend engineering projects, skills, and system architectures. | `Vercel` `Web` `REST APIs` |
 
 ---
 
@@ -71,7 +72,6 @@ I enjoy architecting scalable backend systems, automating complex AI workflows, 
 ### 🏙️ My Contribution Matrix
 
 <div align="center">
-  <!-- Live Green Contribution Heatmap (Works immediately without needing a GitHub Action) -->
   <img src="https://ghchart.rshah.org/00F59B/zayanshahid" width="100%" alt="zayanshahid's Live Contribution Chart" />
 </div>
 
