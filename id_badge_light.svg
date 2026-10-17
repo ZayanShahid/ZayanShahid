@@ -60,7 +60,7 @@
     <text x="380" y="436"><tspan class="dots">.</tspan></text>
     <text x="380" y="456"><tspan class="dots">-</tspan> <tspan class="title">GitHub Stats</tspan> <tspan class="dots">--------------------------------------------</tspan></text>
     <text x="380" y="476"><tspan class="dots">.</tspan> <tspan class="key">Repos</tspan><tspan class="dots">: ................. </tspan><tspan class="val">48</tspan> <tspan class="dots">|</tspan> <tspan class="key">Stars</tspan><tspan class="dots">: .................... </tspan><tspan class="val">5</tspan></text>
-    <text x="380" y="496"><tspan class="dots">.</tspan> <tspan class="key">Commits</tspan><tspan class="dots">: .............. </tspan><tspan class="val">683</tspan> <tspan class="dots">|</tspan> <tspan class="key">Followers</tspan><tspan class="dots">: ................ </tspan><tspan class="val">9</tspan></text>
+    <text x="380" y="496"><tspan class="dots">.</tspan> <tspan class="key">Commits</tspan><tspan class="dots">: .............. </tspan><tspan class="val">684</tspan> <tspan class="dots">|</tspan> <tspan class="key">Followers</tspan><tspan class="dots">: ................ </tspan><tspan class="val">9</tspan></text>
     <text x="380" y="516"><tspan class="dots">.</tspan> <tspan class="key">PRs</tspan><tspan class="dots">: .................... </tspan><tspan class="val">0</tspan> <tspan class="dots">|</tspan> <tspan class="key">Issues</tspan><tspan class="dots">: ................... </tspan><tspan class="val">0</tspan></text>
   </g>
 </svg>
