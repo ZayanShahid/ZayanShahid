@@ -1,9 +1,9 @@
 <div align="center">
 <!-- BADGE:START -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=60b69245">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_light.svg?v=d857a0a7">
-    <img src="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=60b69245" width="100%" alt="Developer Profile Neofetch Terminal" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=809cadff">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_light.svg?v=7e1d30a6">
+    <img src="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=809cadff" width="100%" alt="Developer Profile Neofetch Terminal" />
   </picture>
 <!-- BADGE:END -->
   <br/><br/>
