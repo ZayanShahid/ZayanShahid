@@ -11,6 +11,7 @@ import json
 import os
 import re
 import urllib.request
+from urllib.parse import quote
 from collections import Counter
 from datetime import datetime, timezone, timedelta
 from xml.sax.saxutils import escape
@@ -42,7 +43,8 @@ CONFIG = {
     "status_away": "Away / Server Running",
 }
 
-# Tech GitHub can't detect (frameworks, infra). Detected languages/topics are added on top.
+# Your stack. Only these badges are shown while AUTO_ADD_DETECTED is False.
+AUTO_ADD_DETECTED = False   # True = also add languages/topics found in your repos
 ALWAYS_TECH = ["Python", "SQL", "LangChain", "MS Presidio (DLP)", "OpenCV", "Flask", "FastAPI",
                "PostgreSQL", "MongoDB", "Docker", "Proxmox VE", "Cloudflare", "n8n"]
 
@@ -61,6 +63,9 @@ FEATURED = [
      "My personal portfolio showcasing backend engineering projects, skills, and architecture.",
      ["Vercel", "Python", "REST APIs"]),
 ]
+# After deploying the live endpoint (see live-desk/), put its URL here, e.g.
+# "https://live-desk-yourname.vercel.app/api/desk". Empty = use the committed live_desk.svg.
+DESK_LIVE_URL = ""
 MAX_PROJECTS = 6
 MAX_PER_COLUMN = 6
 RECENT_PUSH_HOURS = 3
@@ -82,6 +87,20 @@ BADGES = [
     ("Nginx", "009639", "nginx", COLUMNS[3]),
 ]
 ALIASES = {"dockerfile": "docker", "presidio": "mspresidiodlp", "postgres": "postgresql"}
+
+# Where each badge links. Anything missing falls back to a search of your own repos.
+SITES = {
+    "Python": "https://www.python.org", "SQL": "https://en.wikipedia.org/wiki/SQL",
+    "JavaScript": "https://developer.mozilla.org/docs/Web/JavaScript", "TypeScript": "https://www.typescriptlang.org",
+    "Jupyter Notebook": "https://jupyter.org", "HTML": "https://developer.mozilla.org/docs/Web/HTML",
+    "CSS": "https://developer.mozilla.org/docs/Web/CSS",
+    "LangChain": "https://www.langchain.com", "MS Presidio (DLP)": "https://microsoft.github.io/presidio/",
+    "OpenCV": "https://opencv.org",
+    "Flask": "https://flask.palletsprojects.com", "FastAPI": "https://fastapi.tiangolo.com",
+    "PostgreSQL": "https://www.postgresql.org", "MongoDB": "https://www.mongodb.com", "Redis": "https://redis.io",
+    "Docker": "https://www.docker.com", "Proxmox VE": "https://www.proxmox.com/en/proxmox-virtual-environment",
+    "Cloudflare": "https://www.cloudflare.com", "n8n": "https://n8n.io", "Nginx": "https://nginx.org",
+}
 
 # ───────────────────────── 2. GITHUB DATA ─────────────────────────
 def api(path, body=None):
@@ -126,12 +145,13 @@ def build_tech_columns(lang_bytes, topics):
 
     for n in ALWAYS_TECH:
         add(resolve(n, COLUMNS[2]))
-    total = sum(lang_bytes.values()) or 1
-    for lang, b in lang_bytes.most_common(8):
-        if b / total >= 0.02:
-            add(resolve(lang, COLUMNS[0]))
-    for t in sorted(topics):
-        add(resolve(t))          # topics only count if we know the badge
+    if AUTO_ADD_DETECTED:
+        total = sum(lang_bytes.values()) or 1
+        for lang, b in lang_bytes.most_common(8):
+            if b / total >= 0.02:
+                add(resolve(lang, COLUMNS[0]))
+        for t in sorted(topics):
+            add(resolve(t))      # topics only count if we know the badge
     return cols
 
 
@@ -357,7 +377,9 @@ def badge_md(entry):
     name, color, logo, _ = entry
     label = name.replace("-", "--").replace("_", "__").replace(" ", "_")
     logo_part = f"&logo={logo}&logoColor=white" if logo else ""
-    return f"![{name}](https://img.shields.io/badge/{label}-{color}?style=flat{logo_part})"
+    img = f"![{name}](https://img.shields.io/badge/{label}-{color}?style=flat{logo_part})"
+    url = SITES.get(name) or f"https://github.com/search?q=user%3A{USERNAME}+language%3A{quote(name)}&type=repositories"
+    return f"[{img}]({url})"
 
 
 def tech_block(cols):
@@ -406,7 +428,8 @@ def update_readme(d, dark, light, desk, path="README.md"):
     text = replace_block(text, "BADGE", badge)
     text = replace_block(text, "TECH", tech_block(d["cols"]))
     text = replace_block(text, "PROJECTS", projects_block(d["pinned"]))
-    text = replace_block(text, "DESK", f"[![Live Developer Desk]({RAW}/live_desk.svg?v={hk})]({RAW}/live_desk.svg)")
+    desk_src = DESK_LIVE_URL or f"{RAW}/live_desk.svg?v={hk}"
+    text = replace_block(text, "DESK", f"[![Live Developer Desk]({desk_src})]({DESK_LIVE_URL or RAW + '/live_desk.svg'})")
     open(path, "w", encoding="utf-8").write(text)
 
 
