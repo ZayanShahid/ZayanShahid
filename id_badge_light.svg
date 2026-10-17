@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="545" viewBox="0 0 960 545">
+  <style>
+    .bg { fill: #ffffff; rx: 12px; stroke: #d0d7de; stroke-width: 1.5px; }
+    text { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 14px; fill: #24292f; white-space: pre; }
+    .ascii { fill: #24292f; font-size: 13.5px; }
+    .title { fill: #24292f; font-weight: bold; }
+    .key { fill: #bc4c00; }
+    .val { fill: #0969da; }
+    .dots { fill: #8c959f; }
+  </style>
+  <rect width="956" height="541" x="2" y="2" class="bg"/>
+  <g class="ascii">
+    <text x="35" y="36"></text>
+    <text x="35" y="56"></text>
+    <text x="35" y="76">             .:==-:..</text>
+    <text x="35" y="96">            -#@@@@%#*+=.</text>
+    <text x="35" y="116">           :*#%@@@@@@%%+</text>
+    <text x="35" y="136">          .+*#%@@@@@@%#*.</text>
+    <text x="35" y="156">          -+*%@@@@@@@@#*-</text>
+    <text x="35" y="176">          -++*#%@@@@%#**+</text>
+    <text x="35" y="196">          =--: .-+=: .--+.</text>
+    <text x="35" y="216">        .:++::---@*:-::-+-.</text>
+    <text x="35" y="236">        .-*%%%%%%@%%%%##*=.</text>
+    <text x="35" y="256">         :+%@@@%%@@%@@@%*=.</text>
+    <text x="35" y="276">         .=#%@@#-*=#@@@%+:</text>
+    <text x="35" y="296">          .+##+- . =*%%*:</text>
+    <text x="35" y="316">           :+-.=**+:.-+-</text>
+    <text x="35" y="336">          ..:-===-==-::.</text>
+    <text x="35" y="356">          ** .:-++-::.</text>
+    <text x="35" y="376">          .@*. .---.</text>
+    <text x="35" y="396">           -@@+     .+:</text>
+    <text x="35" y="416">          . +@@%+:.:=@-</text>
+    <text x="35" y="436">         . . #@@@@#*@@=</text>
+    <text x="35" y="456">          .. :@@@@@@#%%</text>
+    <text x="35" y="476">         .... =@%*%@#+@-</text>
+    <text x="35" y="496">     ..  ..... #@@#@@@@*</text>
+    <text x="35" y="516">    .... ..... :@@@@@@@@:</text>
+  </g>
+  <g>
+    <text x="380" y="36"><tspan class="title">zayanshahid@github</tspan> <tspan class="dots">----------------------------------------</tspan></text>
+    <text x="380" y="56"><tspan class="dots">.</tspan></text>
+    <text x="380" y="76"><tspan class="dots">.</tspan> <tspan class="key">OS</tspan><tspan class="dots">: ............................ </tspan><tspan class="val">Linux / Proxmox VE / WSL</tspan></text>
+    <text x="380" y="96"><tspan class="dots">.</tspan> <tspan class="key">Academic</tspan><tspan class="dots">: ............... </tspan><tspan class="val">MS Computing &amp; Data Science</tspan></text>
+    <text x="380" y="116"><tspan class="dots">.</tspan> <tspan class="key">Host</tspan><tspan class="dots">: ............................... </tspan><tspan class="val">shahidse.vercel.app</tspan></text>
+    <text x="380" y="136"><tspan class="dots">.</tspan> <tspan class="key">Kernel</tspan><tspan class="dots">: .................... </tspan><tspan class="val">AI | Python Backend Engineer</tspan></text>
+    <text x="380" y="156"><tspan class="dots">.</tspan> <tspan class="key">IDE</tspan><tspan class="dots">: .................................. </tspan><tspan class="val">VS Code / PyCharm</tspan></text>
+    <text x="380" y="176"><tspan class="dots">.</tspan></text>
+    <text x="380" y="196"><tspan class="dots">.</tspan> <tspan class="key">Languages.Programming</tspan><tspan class="dots">: ...... </tspan><tspan class="val">Python, Flask, FastAPI, SQL</tspan></text>
+    <text x="380" y="216"><tspan class="dots">.</tspan> <tspan class="key">AI.And.Security</tspan><tspan class="dots">: ......... </tspan><tspan class="val">LangChain, Gemini, MS Presidio</tspan></text>
+    <text x="380" y="236"><tspan class="dots">.</tspan> <tspan class="key">Infrastructure</tspan><tspan class="dots">: .......... </tspan><tspan class="val">Docker, Cloudflare, Nginx, n8n</tspan></text>
+    <text x="380" y="256"><tspan class="dots">.</tspan></text>
+    <text x="380" y="276"><tspan class="dots">.</tspan> <tspan class="key">Hobbies.Software</tspan><tspan class="dots">: .... </tspan><tspan class="val">DLP Scanners, LLM Agents, Home Lab</tspan></text>
+    <text x="380" y="296"><tspan class="dots">.</tspan> <tspan class="key">Hobbies.Real</tspan><tspan class="dots">: ............ </tspan><tspan class="val">Gaming, Live Streaming, Travel</tspan></text>
+    <text x="380" y="316"><tspan class="dots">.</tspan></text>
+    <text x="380" y="336"><tspan class="dots">-</tspan> <tspan class="title">Contact</tspan> <tspan class="dots">-------------------------------------------------</tspan></text>
+    <text x="380" y="356"><tspan class="dots">.</tspan> <tspan class="key">Email</tspan><tspan class="dots">: .......................... </tspan><tspan class="val">shaam.laghari@gmail.com</tspan></text>
+    <text x="380" y="376"><tspan class="dots">.</tspan> <tspan class="key">LinkedIn</tspan><tspan class="dots">: ..................... </tspan><tspan class="val">muhammad-shahid-979961130</tspan></text>
+    <text x="380" y="396"><tspan class="dots">.</tspan> <tspan class="key">Domain</tspan><tspan class="dots">: ................................ </tspan><tspan class="val">cyberverse.space</tspan></text>
+    <text x="380" y="416"><tspan class="dots">.</tspan> <tspan class="key">Website</tspan><tspan class="dots">: ............................ </tspan><tspan class="val">shahidse.vercel.app</tspan></text>
+    <text x="380" y="436"><tspan class="dots">.</tspan></text>
+    <text x="380" y="456"><tspan class="dots">-</tspan> <tspan class="title">GitHub Stats</tspan> <tspan class="dots">--------------------------------------------</tspan></text>
+    <text x="380" y="476"><tspan class="dots">.</tspan> <tspan class="key">Repos</tspan><tspan class="dots">: ................. </tspan><tspan class="val">48</tspan> <tspan class="dots">|</tspan> <tspan class="key">Stars</tspan><tspan class="dots">: .................... </tspan><tspan class="val">5</tspan></text>
+    <text x="380" y="496"><tspan class="dots">.</tspan> <tspan class="key">Commits</tspan><tspan class="dots">: .............. </tspan><tspan class="val">673</tspan> <tspan class="dots">|</tspan> <tspan class="key">Followers</tspan><tspan class="dots">: ................ </tspan><tspan class="val">9</tspan></text>
+    <text x="380" y="516"><tspan class="dots">.</tspan> <tspan class="key">PRs</tspan><tspan class="dots">: .................... </tspan><tspan class="val">0</tspan> <tspan class="dots">|</tspan> <tspan class="key">Issues</tspan><tspan class="dots">: ................... </tspan><tspan class="val">0</tspan></text>
+  </g>
+</svg>
