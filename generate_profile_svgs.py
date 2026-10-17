@@ -33,7 +33,7 @@ CONFIG = {
     "kernel": "AI | Python Backend Engineer",
     "ide": "VS Code / PyCharm",
     "hobbies_software": "DLP Scanners, LLM Agents, Home Lab",
-    "hobbies_real": "Gaming, Live Streaming, Travel",
+    "hobbies_real": "Coding, Gaming, Live Streaming, Travel",
     "email": "shaam.laghari@gmail.com",
     "linkedin": "muhammad-shahid-979961130",
     "domain": "getsol.tech",
