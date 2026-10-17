@@ -195,16 +195,16 @@ def build_live_desk():
     .steam {{ stroke: #8b949e; stroke-width: 2; fill: none; stroke-linecap: round; opacity: 0.7; }}
   </style>
   <rect width="596" height="216" x="2" y="2" class="bg"/>
-  <rect x="210" y="35" width="180" height="105" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
-  <text x="225" y="65" class="txt" fill="#79c0ff">&gt;_ zayanshahid.py</text>
-  <text x="225" y="88" class="txt" fill="#a371f7">status: "{status}"</text>
-  <text x="225" y="111" class="txt" fill="#3fb950">time:   "{time_str}"</text>
+  <rect x="140" y="35" width="320" height="105" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+  <text x="160" y="65" class="txt" fill="#79c0ff">&gt;_ zayanshahid.py</text>
+  <text x="160" y="88" class="txt" fill="#a371f7">status: "{status}"</text>
+  <text x="160" y="111" class="txt" fill="#3fb950">time:   "{time_str}"</text>
   <rect x="285" y="140" width="30" height="25" fill="#30363d"/>
   <rect x="250" y="165" width="100" height="6" rx="3" fill="#484f58"/>
-  <rect x="440" y="130" width="28" height="35" rx="4" fill="#f0883e"/>
-  <path d="M468 138 h8 a6 6 0 0 1 6 6 v8 a6 6 0 0 1 -6 6 h-8" fill="none" stroke="#f0883e" stroke-width="4"/>
-  <path class="steam" d="M448 122 Q444 112 450 102"><animate attributeName="d" values="M448 122 Q444 112 450 102;M448 122 Q452 112 446 102;M448 122 Q444 112 450 102" dur="2.5s" repeatCount="indefinite"/></path>
-  <path class="steam" d="M458 122 Q462 112 456 102"><animate attributeName="d" values="M458 122 Q462 112 456 102;M458 122 Q454 112 460 102;M458 122 Q462 112 456 102" dur="2.5s" repeatCount="indefinite"/></path>
+  <rect x="490" y="130" width="28" height="35" rx="4" fill="#f0883e"/>
+  <path d="M518 138 h8 a6 6 0 0 1 6 6 v8 a6 6 0 0 1 -6 6 h-8" fill="none" stroke="#f0883e" stroke-width="4"/>
+  <path class="steam" d="M498 122 Q494 112 500 102"><animate attributeName="d" values="M498 122 Q494 112 500 102;M498 122 Q502 112 496 102;M498 122 Q494 112 500 102" dur="2.5s" repeatCount="indefinite"/></path>
+  <path class="steam" d="M508 122 Q512 112 506 102"><animate attributeName="d" values="M508 122 Q512 112 506 102;M508 122 Q504 112 510 102;M508 122 Q512 112 506 102" dur="2.5s" repeatCount="indefinite"/></path>
   <line x1="40" y1="171" x2="560" y2="171" stroke="#30363d" stroke-width="4"/>
   <text x="300" y="200" text-anchor="middle" class="txt">⚡ Live Status Desk • Auto-Updated via GitHub Actions</text>
 </svg>'''
