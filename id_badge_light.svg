@@ -45,7 +45,7 @@
     <text x="380" y="136"><tspan class="dots">.</tspan> <tspan class="key">Kernel</tspan><tspan class="dots">: .................... </tspan><tspan class="val">AI | Python Backend Engineer</tspan></text>
     <text x="380" y="156"><tspan class="dots">.</tspan> <tspan class="key">IDE</tspan><tspan class="dots">: .................................. </tspan><tspan class="val">VS Code / PyCharm</tspan></text>
     <text x="380" y="176"><tspan class="dots">.</tspan></text>
-    <text x="380" y="196"><tspan class="dots">.</tspan> <tspan class="key">Languages.Programming</tspan><tspan class="dots">: .... </tspan><tspan class="val">Python, SQL, Jupyter Notebook</tspan></text>
+    <text x="380" y="196"><tspan class="dots">.</tspan> <tspan class="key">Languages.Programming</tspan><tspan class="dots">: ...................... </tspan><tspan class="val">Python, SQL</tspan></text>
     <text x="380" y="216"><tspan class="dots">.</tspan> <tspan class="key">Backend.And.Data</tspan><tspan class="dots">: ... </tspan><tspan class="val">Flask, FastAPI, PostgreSQL, MongoDB</tspan></text>
     <text x="380" y="236"><tspan class="dots">.</tspan> <tspan class="key">AI.And.Security</tspan><tspan class="dots">: ... </tspan><tspan class="val">LangChain, MS Presidio (DLP), OpenCV</tspan></text>
     <text x="380" y="256"><tspan class="dots">.</tspan> <tspan class="key">Infrastructure</tspan><tspan class="dots">: ..... </tspan><tspan class="val">Docker, Proxmox VE, Cloudflare, n8n</tspan></text>
@@ -60,8 +60,8 @@
     <text x="380" y="436"><tspan class="dots">.</tspan> <tspan class="key">Website</tspan><tspan class="dots">: ............................ </tspan><tspan class="val">shahidse.vercel.app</tspan></text>
     <text x="380" y="456"><tspan class="dots">.</tspan></text>
     <text x="380" y="476"><tspan class="dots">-</tspan> <tspan class="title">GitHub Stats</tspan> <tspan class="dots">--------------------------------------------</tspan></text>
-    <text x="380" y="496"><tspan class="dots">.</tspan> <tspan class="key">Repos</tspan><tspan class="dots">: ................. </tspan><tspan class="val">48</tspan> <tspan class="dots">|</tspan> <tspan class="key">Stars</tspan><tspan class="dots">: .................... </tspan><tspan class="val">0</tspan></text>
-    <text x="380" y="516"><tspan class="dots">.</tspan> <tspan class="key">Commits</tspan><tspan class="dots">: .............. </tspan><tspan class="val">689</tspan> <tspan class="dots">|</tspan> <tspan class="key">Followers</tspan><tspan class="dots">: ................ </tspan><tspan class="val">9</tspan></text>
+    <text x="380" y="496"><tspan class="dots">.</tspan> <tspan class="key">Repos</tspan><tspan class="dots">: ................. </tspan><tspan class="val">49</tspan> <tspan class="dots">|</tspan> <tspan class="key">Stars</tspan><tspan class="dots">: .................... </tspan><tspan class="val">0</tspan></text>
+    <text x="380" y="516"><tspan class="dots">.</tspan> <tspan class="key">Commits</tspan><tspan class="dots">: .............. </tspan><tspan class="val">690</tspan> <tspan class="dots">|</tspan> <tspan class="key">Followers</tspan><tspan class="dots">: ................ </tspan><tspan class="val">9</tspan></text>
     <text x="380" y="536"><tspan class="dots">.</tspan> <tspan class="key">PRs</tspan><tspan class="dots">: .................... </tspan><tspan class="val">0</tspan> <tspan class="dots">|</tspan> <tspan class="key">Issues</tspan><tspan class="dots">: ................... </tspan><tspan class="val">0</tspan></text>
   </g>
 </svg>
