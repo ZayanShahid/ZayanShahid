@@ -65,7 +65,7 @@ FEATURED = [
 ]
 # After deploying the live endpoint (see live-desk/), put its URL here, e.g.
 # "https://live-desk-yourname.vercel.app/api/desk". Empty = use the committed live_desk.svg.
-DESK_LIVE_URL = ""
+DESK_LIVE_URL = "https://live-desk-nine.vercel.app/"
 MAX_PROJECTS = 6
 MAX_PER_COLUMN = 6
 RECENT_PUSH_HOURS = 3
