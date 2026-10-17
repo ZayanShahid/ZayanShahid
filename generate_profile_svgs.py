@@ -36,7 +36,7 @@ CONFIG = {
     "hobbies_real": "Coding, Gaming, Live Streaming, Travel",
     "email": "shaam.laghari@gmail.com",
     "linkedin": "muhammad-shahid-979961130",
-    "domain": "getsol.tech",
+    "domain": "cyberverse.space",
     "website": "getsol.tech",
     "active_hours": (9, 23),                 # PKT, used when no recent public push exists
     "status_active": "Coding & Building APIs",
