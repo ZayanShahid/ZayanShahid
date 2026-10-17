@@ -16,27 +16,29 @@ concurrency:
 
 jobs:
   build-profile:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Generate 3D Isometric GitHub City
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: zayanshahid
 
-      - name: Generate Neofetch ID Badges & Live Desk SVGs
+      - name: Generate ID Badges, Live Desk SVG & README sections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install Pillow
           python3 generate_profile_svgs.py
 
-      - name: Commit & Push Generated SVGs
+      - name: Commit & Push Generated Files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add id_badge_dark.svg id_badge_light.svg live_desk.svg profile-3d-contrib/
-          git diff --staged --quiet || git commit -m "chore: update dynamic profile SVGs"
+          git add README.md id_badge_dark.svg id_badge_light.svg live_desk.svg profile-3d-contrib/
+          git diff --staged --quiet || git commit -m "chore: update dynamic profile"
           git pull --rebase origin ${{ github.ref_name }}
           git push
