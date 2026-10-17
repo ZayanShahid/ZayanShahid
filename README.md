@@ -1,32 +1,37 @@
 <div align="center">
+  <!-- Dynamic Header Banner (Replaces local id_badge.svg so it works out of the box) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="id_badge_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="id_badge_light.svg">
-    <img src="id_badge_light.svg" width="100%" alt="Developer Profile Neofetch Terminal" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:00F59B&height=180&section=header&text=Muhammad%20Shahid&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Python%20Backend%20Engineer%20%E2%80%A2%20AI%20Orchestration%20%E2%80%A2%20Security%20%26%20DLP&descAlignY=65&descSize=16">
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:6e40c9,100:00F59B&height=180&section=header&text=Muhammad%20Shahid&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Python%20Backend%20Engineer%20%E2%80%A2%20AI%20Orchestration%20%E2%80%A2%20Security%20%26%20DLP&descAlignY=65&descSize=16">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:00F59B&height=180&section=header&text=Muhammad%20Shahid&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Python%20Backend%20Engineer%20%E2%80%A2%20AI%20Orchestration%20%E2%80%A2%20Security%20%26%20DLP&descAlignY=65&descSize=16" width="100%" alt="Developer Profile Header" />
   </picture>
   <br/>
 
-  <a href="https://nisarg.is-a.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Portfolio" />
+  <!-- Social & Contact Badges + Live Auto-Updating Counters -->
+  <a href="https://cyberverse.space" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-20232A?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Portfolio" />
   </a>
-  <a href="https://www.linkedin.com/in/nisarg1212" target="_blank">
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:nisargbhatt48@gmail.com">
+  <a href="mailto:YOUR_EMAIL@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-
+  <a href="https://github.com/zayanshahid?tab=repositories">
+    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fzayanshahid&query=%24.public_repos&style=for-the-badge&logo=github&logoColor=00F59B&label=Repos&labelColor=20232A&color=6e40c9" alt="Live Repos" />
+  </a>
 </div>
 
 ---
 
 ### 🚀 About Me
 
-I enjoy exploring interesting ideas and turning them into real products.
+I enjoy architecting scalable backend systems, automating complex AI workflows, and turning ambitious ideas into production-ready solutions.
 
-- 🔭 I’m currently working on **A system that acurately predicts your life after 5 years.**
-- 🌱 I’m constantly learning **More Python plus Advanced Backend Architecture & some AI concepts.**
-- 💼 Open for **Entry-level Software Engineering roles**
+- 🎓 Holds an **MS in Computing and Data Science**.
+- 🔭 I’m currently working on **Multi-tiered Data Loss Prevention (DLP) systems, LLM agent orchestration, and automated n8n pipelines.**
+- 🌱 I’m constantly exploring **Advanced Backend Architecture, AI Security & Red Teaming, and Self-Hosted Cloud Infrastructure.**
+- 💼 Open for **Software Engineering, Python Backend & AI Engineering roles and collaborations.**
 
 ---
 
@@ -34,9 +39,9 @@ I enjoy exploring interesting ideas and turning them into real products.
 
 <div align="center">
 
-|                                                                                               **Languages**                                                                                                |                                                                                         **Frontend**                                                                                         |                                                                                    **Backend**                                                                                    |                                                                                   **Tools & Cloud**                                                                                   |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) <br> ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) <br> ![HTML/CSS](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) <br> ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) <br> ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+| **Backend & Core** | **AI & Orchestration** | **Databases & Security** | **DevOps & Home Lab** |
+| :---: | :---: | :---: | :---: |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) <br> ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) <br> ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white) <br> ![OpenAI/Gemini](https://img.shields.io/badge/OpenAI_%26_Gemini-412991?style=flat&logo=openai&logoColor=white) <br> ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) <br> ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) <br> ![MS Presidio](https://img.shields.io/badge/MS_Presidio_(DLP)-0078D4?style=flat&logo=microsoft&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) <br> ![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=flat&logo=proxmox&logoColor=white) <br> ![Cloudflare](https://img.shields.io/badge/Cloudflare_Tunnels-F38020?style=flat&logo=cloudflare&logoColor=white) <br> ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white) |
 
 </div>
 
@@ -44,31 +49,34 @@ I enjoy exploring interesting ideas and turning them into real products.
 
 ### 📂 Top Projects
 
-| Project                                           | Description                                                                 | Tech Stack                     |
-| :------------------------------------------------ | :-------------------------------------------------------------------------- | :----------------------------- |
-| **[Afterfiveyears.life](https://afterfiveyears.life)**   | A platform for analyzing and reflecting on your life desicions.  | `Django` `Python` `Django-restframework` `React`|
-| **[StackX](https://stackxapp.com)**               | A place to find right AI workflows and systems becomes easy.                  | `React` `typescript` `SQLite`      |
-| **[Personal Portfolio](https://nisarg.is-a.dev)** | My personal digital garden showcasing my projects, skills, and journey.     | `React` `Vite` `CSS` `Framer`           |
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[Enterprise DLP & AI Security Suite](https://github.com/zayanshahid)** | Multi-tiered Data Loss Prevention scanner integrating custom regex, Shannon entropy, context scoring, and Microsoft Presidio. | `Python` `MS Presidio` `Regex` `Promptfoo` |
+| **[M365 Copilot Governance Suite](https://github.com/zayanshahid)** | 7-pillar security & compliance assessment engine with automated Graph API auditing and dynamic report generation. | `Python` `Microsoft Graph API` `python-docx` |
+| **[AI Content & Webhook Orchestrator](https://cyberverse.space)** | Self-hosted multi-node automation pipelines integrating LLMs, webhooks, and custom domain routing for media generation. | `n8n` `LangChain` `Gemini API` `Docker` `Cloudflare` |
+| **[Computer Vision Drowsiness Detection](https://github.com/zayanshahid)** | Real-time facial landmark and eye-aspect-ratio monitoring system for driver safety alerts. | `Python` `OpenCV` `Data Science` |
 
 ---
 
-### 💻 My Live Status Desk
+### 💻 My Live Coding Telemetry
 
 <div align="center">
-  <p><i>A dynamic, auto-updating SVG showing my current local time and coding status. If the coffee is steaming, I recently pushed code!</i></p>
-  <img src="live_desk.svg" width="600" alt="Live Developer Desk" />
+  <p><i>Dynamic, auto-updating cards showing my real-time repositories, commits, and language distribution.</i></p>
+  <img src="https://github-readme-stats.vercel.app/api?username=zayanshahid&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F59B&icon_color=a371f7" height="175" alt="Live GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zayanshahid&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F59B&langs_count=6" height="175" alt="Top Languages" />
 </div>
 
 ---
 
-### 🏙️ My GitHub City
+### 🏙️ My Contribution Matrix
 
 <div align="center">
-  <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="isometric 3D city" />
+  <!-- Live Green Contribution Heatmap (Works immediately without needing a GitHub Action) -->
+  <img src="https://ghchart.rshah.org/00F59B/zayanshahid" width="100%" alt="zayanshahid's Live Contribution Chart" />
 </div>
 
 ---
 
 <div align="center">
-  <p><i>Let's build something intresting!</i></p>
+  <p><i>Let's build something impactful together!</i></p>
 </div>
