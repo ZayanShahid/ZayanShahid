@@ -57,7 +57,8 @@ I enjoy exploring ambitious ideas, architecting scalable backend systems, and tu
 
 <div align="center">
   <p><i>A dynamic, auto-updating SVG showing my current local time (PKT) and coding status.</i></p>
-  <img src="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/live_desk.svg" width="100%" alt="Live Developer Desk" />
+  
+  [![Live Developer Desk](https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/live_desk.svg?v=3)](https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/live_desk.svg)
 </div>
 
 ---
