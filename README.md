@@ -1,45 +1,74 @@
-<p align="center"><a href="https://anuraghazra.github.io"><img width="80%" alt="Hello, I'm Anurag. I do open source!" src="./assets/gh-readme-header.png" /></a></p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="id_badge_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="id_badge_light.svg">
+    <img src="id_badge_light.svg" width="100%" alt="Developer Profile Neofetch Terminal" />
+  </picture>
+  <br/>
 
-<br />
+  <a href="https://nisarg.is-a.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/nisarg1212" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:nisargbhatt48@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 
-I'm a self-taught passionate FrontEnd developer from India 🇮🇳
+</div>
 
-**About me**
+---
 
-- 💼 FrontEnd Engineer at [Razorpay](http://razorpay.com/)
+### 🚀 About Me
 
-- 📈 Built github-readme-stats, verlyjs and more, **50m+** hits • **50K** stars on GitHub
+I enjoy exploring interesting ideas and turning them into real products.
 
-- ❤️ I love writing TypeScript, and building fun experiments on type-level
+- 🔭 I’m currently working on **A system that acurately predicts your life after 5 years.**
+- 🌱 I’m constantly learning **More Python plus Advanced Backend Architecture & some AI concepts.**
+- 💼 Open for **Entry-level Software Engineering roles**
 
-- 💬 Ask me about anything [here](https://github.com/anuraghazra/anuraghazra/issues)
+---
 
-<code><img height="20" alt="javascript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="20" alt="typescript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
-<code><img height="20" alt="react" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-<code><img height="20" alt="graphql" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>
-<code><img height="20" alt="nodejs" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>    
+### 🛠️ Tech Stack
 
+<div align="center">
 
-| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=buefy&hide_border=true" /></a> |
-| ------------- | ------------- |
+|                                                                                               **Languages**                                                                                                |                                                                                         **Frontend**                                                                                         |                                                                                    **Backend**                                                                                    |                                                                                   **Tools & Cloud**                                                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) <br> ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) <br> ![HTML/CSS](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) <br> ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) <br> ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 
-#### Top Repositories
+</div>
 
+---
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=buefy" />
-</a>
-<a href="https://github.com/anuraghazra/anuraghazra.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=anuraghazra.github.io&theme=buefy" />
-</a>
+### 📂 Top Projects
 
-<br />
-<br />
+| Project                                           | Description                                                                 | Tech Stack                     |
+| :------------------------------------------------ | :-------------------------------------------------------------------------- | :----------------------------- |
+| **[Afterfiveyears.life](https://afterfiveyears.life)**   | A platform for analyzing and reflecting on your life desicions.  | `Django` `Python` `Django-restframework` `React`|
+| **[StackX](https://stackxapp.com)**               | A place to find right AI workflows and systems becomes easy.                  | `React` `typescript` `SQLite`      |
+| **[Personal Portfolio](https://nisarg.is-a.dev)** | My personal digital garden showcasing my projects, skills, and journey.     | `React` `Vite` `CSS` `Framer`           |
 
-<a href="https://twitter.com/anuraghazru">
-  <img align="right" alt="Anurag Hazra | Twitter" width="21px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg" />
-</a>
-<a href="https://codesandbox.io/u/anuraghazra">
-  <img align="right" alt="Anurag Hazra | CodeSandbox" width="20px" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/codesandbox.svg" />
-</a>
+---
+
+### 💻 My Live Status Desk
+
+<div align="center">
+  <p><i>A dynamic, auto-updating SVG showing my current local time and coding status. If the coffee is steaming, I recently pushed code!</i></p>
+  <img src="live_desk.svg" width="600" alt="Live Developer Desk" />
+</div>
+
+---
+
+### 🏙️ My GitHub City
+
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="isometric 3D city" />
+</div>
+
+---
+
+<div align="center">
+  <p><i>Let's build something intresting!</i></p>
+</div>
