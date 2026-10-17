@@ -1,0 +1,39 @@
+name: Generate Dynamic Profile SVGs & 3D City
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: write
+
+jobs:
+  build-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Isometric GitHub City
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: zayanshahid
+
+      - name: Generate Neofetch ID Badges & Live Desk SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install Pillow
+          python3 generate_profile_svgs.py
+
+      - name: Commit & Push Generated SVGs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add id_badge_dark.svg id_badge_light.svg live_desk.svg profile-3d-contrib/
+          git diff --staged --quiet || git commit -m "chore: update dynamic profile SVGs"
+          git push
