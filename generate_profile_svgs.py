@@ -4,9 +4,11 @@ import json
 import urllib.request
 from datetime import datetime, timezone
 from PIL import Image, ImageOps, ImageEnhance
+from xml.sax.saxutils import escape
 
 USERNAME = "zayanshahid"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
+
 
 def get_user_ascii_lines(image_source=f"https://github.com/{USERNAME}.png", width=34, height=25):
     chars = " .:-=+*#%@"
@@ -183,8 +185,11 @@ def build_id_badge(stats, theme="dark"):
 def build_live_desk():
     pkt_hour = (datetime.now(timezone.utc).hour + 5) % 24
     time_str = f"{pkt_hour:02d}:{datetime.now(timezone.utc).minute:02d} PKT"
-    status = "Coding & Building APIs" if 9 <= pkt_hour <= 23 else "Away / Server Running"
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
+    #status = "Coding & Building APIs" if 9 <= pkt_hour <= 23 else "Away / Server Running"
+    #return f'''<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
+    status = "Coding & Building APIs"
+    svg = f'<text x="225" y="88" class="txt" fill="#a371f7">status: "{escape(status)}"</text>'
+    return svg
   <style>
     .bg {{ fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 2px; }}
     .txt {{ font-family: 'JetBrains Mono', monospace; fill: #c9d1d9; font-size: 13px; }}
