@@ -90,7 +90,7 @@ ALIASES = {"dockerfile": "docker", "presidio": "mspresidiodlp", "postgres": "pos
 
 # Where each badge links. Anything missing falls back to a search of your own repos.
 SITES = {
-    "Python": "https://www.python.org", "PostgreSQL": "https://www.postgresql.org/",
+    "Python": "https://www.python.org", "SQL": "https://en.wikipedia.org/wiki/SQL",
     "JavaScript": "https://developer.mozilla.org/docs/Web/JavaScript", "TypeScript": "https://www.typescriptlang.org",
     "Jupyter Notebook": "https://jupyter.org", "HTML": "https://developer.mozilla.org/docs/Web/HTML",
     "CSS": "https://developer.mozilla.org/docs/Web/CSS",
