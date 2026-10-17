@@ -37,7 +37,7 @@ CONFIG = {
     "email": "shaam.laghari@gmail.com",
     "linkedin": "muhammad-shahid-979961130",
     "domain": "getsol.tech",
-    "website": "shahidse.vercel.app",
+    "website": "getsol.tech",
     "active_hours": (9, 23),                 # PKT, used when no recent public push exists
     "status_active": "Coding & Building APIs",
     "status_away": "Away / Server Running",
