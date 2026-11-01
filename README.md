@@ -1,9 +1,9 @@
 <div align="center">
 <!-- BADGE:START -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=2750b490">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_light.svg?v=fea6151c">
-    <img src="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=2750b490" width="100%" alt="Developer Profile Neofetch Terminal" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=3b20718f">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_light.svg?v=d27a274f">
+    <img src="https://raw.githubusercontent.com/ZayanShahid/ZayanShahid/main/id_badge_dark.svg?v=3b20718f" width="100%" alt="Developer Profile Neofetch Terminal" />
   </picture>
 <!-- BADGE:END -->
   <br/><br/>
@@ -55,8 +55,8 @@ I enjoy exploring ambitious ideas, architecting scalable backend systems, and tu
 | **[M365 Copilot Governance Suite](https://github.com/ZayanShahid)** | 7-pillar security & compliance assessment suite with automated Graph API auditing and dynamic DOCX reporting. | `Python` `Graph API` `Automation` |
 | **[AI Content & Webhook Orchestrator](https://getsol.tech)** | Self-hosted multi-node automation workflows connecting LLMs, webhooks, and custom domain routing. | `n8n` `LangChain` `Gemini API` `Docker` |
 | **[Personal Portfolio](https://shahidse.vercel.app)** | My personal portfolio showcasing backend engineering projects, skills, and architecture. | `Vercel` `Python` `REST APIs` |
+| **[AIology](https://github.com/ZayanShahid/AIology)** | - | - |
 | **[ZayanShahid](https://github.com/ZayanShahid/ZayanShahid)** | - | `Python` |
-| **[test1-repo](https://github.com/ZayanShahid/test1-repo)** | - | - |
 <!-- PROJECTS:END -->
 
 ---
